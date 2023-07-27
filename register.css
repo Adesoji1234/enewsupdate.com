@@ -1,0 +1,73 @@
+body{
+    background-image: url(4882066.jpg);
+    margin: 90px 240px 0;
+}
+.wrapper{
+    width: 400px;
+    background-color: blue;
+    border-radius: 10px; 
+    padding: 10px 30px 10px 30px;
+    background: transparent;
+    margin-top: 80px;
+
+}
+.back{
+    margin-left: 0;
+    margin-left: -232px;
+    margin-top: -80px;
+}
+.back a{
+
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    
+}
+.wrapper .input-box{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.input-box input{
+    width: 370px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    padding-left: 20px;
+    background: transparent;
+    color: white;
+    border: 2px solid silver;
+}
+.input-box input::placeholder{
+    color: white;
+}
+.wrapper button{
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: blue;
+}
+.register-btn .login{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.register-btn a{
+    color: white;
+    font-weight: bold;
+}
+.a, a:hover{
+    background: blue
+}

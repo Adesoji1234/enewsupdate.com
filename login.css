@@ -1,0 +1,126 @@
+body{
+    background-image: url('4882066.jpg');
+    margin: 90px 250px 0; 
+}
+.wrapper{
+
+background: transparent;
+width: 400px;
+border-radius: 10px;
+padding: 10px 30px 10px 30px
+border: 1px solid silver;
+margin-top: 100px; 
+ }
+ .back{
+    margin-left: -239px;
+    margin-top: -80px;
+ }
+ .back a {
+    font-weight: bold;
+    font-size: 20px;
+    
+    color: red;
+ }
+.wrapper h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px silver;
+    padding-top: 30px;
+    color: white;
+}
+.wrapper .input-box{   
+margin-top: 30px;
+margin-left: 20px;
+
+}
+.input-box input{
+    width: 370px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border: 2px solid silver;
+    border-radius: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: white;
+}
+.input-box input::placeholder{
+   color: white; 
+}
+.input-box i{
+    position: relative;
+    right: 40px;
+
+}
+.wrapper .remember-forgot{
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 15px;
+    font-weight: bolder;
+    color: white;
+}
+.remember-forgot input{
+    margin-right: 3px;
+    color: white;
+    
+}
+.remember-forgot a{
+    font-size: 18px;
+    margin-right: 3px;
+    color: white;
+    font-weight: bold;
+    
+
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+    }
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+}
+.btn, .btn:hover{
+    background-color: blue;
+    transition: .5s;
+}
+.a, a:hover{
+    background-color: blue;
+}
+.wrapper .register{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    color: black;
+
+}
+.register a{
+    color: white;
+    font-weight: bold;
+}
+#check{
+    display: none;
+}
+.pass-show{
+    display: block;
+}
+.fa-user{
+    margin-left: 380px;
+    bottom: 27px;
+}
+.fa-eye{
+    margin-left: 380px;
+    bottom: 27px;  
+}
